@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import refactorRoutes from './routes/refactor';
+import refactorRoutes from './routes/refactor.js';
 
 dotenv.config();
 

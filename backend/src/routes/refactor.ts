@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { refactorCode } from '../services/geminiService';
+import { refactorCode } from '../services/geminiService.js';
 
 const router = Router();
 
